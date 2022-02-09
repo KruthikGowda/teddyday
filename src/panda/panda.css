@@ -1,0 +1,121 @@
+.box-panda {
+  position: relative;
+  margin: auto;
+  /*   border: solid 2px white; */
+  display: block;
+  margin-top: 8%;
+  width: 500px;
+  height: 350px;
+  background: none;
+  align-items: center;
+}
+
+.head-panda {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 67%;
+  background: #a6becf;
+  border-radius: 50%;
+}
+
+.head-copy-panda {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #a6becf;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.ear-left-panda,
+.ear-right-panda {
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  top: 5%;
+  background: #a6becf;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ear-left-panda {
+  left: -20%;
+}
+
+.ear-right-panda {
+  right: -20%;
+}
+
+.inner-ear-panda {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #819caf;
+}
+
+.eye-left-panda,
+.eye-right-panda {
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  border-radius: 50%;
+}
+
+.eye-left-panda {
+  left: 21%;
+  z-index: 3;
+}
+
+.eye-right-panda {
+  right: 21%;
+  z-index: 2;
+}
+
+.pupil-panda {
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background: #27354a;
+}
+
+.noseKoala-panda {
+  position: absolute;
+  background: #be845f;
+  width: 25%;
+  height: 42.5%;
+  left: 37%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 5;
+}
+
+.hair-left-panda,
+.hair-right-panda {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background: #a6becf;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hair-left-panda {
+  top: -8%;
+  left: 30%;
+}
+
+.hair-right-panda {
+  top: -4%;
+  left: 48%;
+}
